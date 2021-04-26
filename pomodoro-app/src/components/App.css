@@ -1,0 +1,151 @@
+*{
+  box-sizing: border-box;
+  
+}
+body{
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+ background-color: #57747d;
+ /*  background-color:#dffffb;*/
+}
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: top;
+  align-items: center;
+  
+  margin: 0px;
+}
+.tag{
+ 
+    font-size: 63px;
+  
+  
+
+}
+
+h2{
+  font-size: 80px;
+  font-weight: bolder;
+}
+#break-label{
+  display: flex;
+  margin: 0 40px;
+  align-items: center;
+ 
+ 
+
+}
+.interval-container{
+display: flex;
+align-items: center;
+height: 180px;
+
+}
+#session-label{
+  display: flex;
+  align-items: center;
+  
+  margin-left: 30px;
+
+}
+#break-length{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 12px;
+  
+}
+#session-length{
+  padding: 12px;
+}
+
+
+button{
+  width: 90px;
+  height: 40px;
+  background-color: #074d69;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+ #break-decrement{
+   font-size: 20px;
+   font-weight: 500;
+ }
+ #break-length{
+  font-size: 30px;
+  font-weight: 900;
+ }
+ #break-increment{
+  font-size: 20px;
+  font-weight: 500;
+ }
+ #session-decrement{
+  font-size: 20px;
+  font-weight: 500;
+ }
+ #session-length{
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 0px;
+    margin-top: 0px;
+ }
+ #session-increment{
+  font-size: 20px;
+  font-weight: 500;
+ }
+ #timer-label{
+   margin-top: 0px;
+ margin-bottom: 18px;
+ }
+  h4{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top:50px;
+}
+.timer-container{
+  border: 3px solid rgb(59, 59, 55);
+  background-color: rgb(250, 239, 225);
+  margin-top: 50px;
+  border-radius: 25px;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+
+}
+.timer{
+  font-size: 30px;
+}
+.button1{
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #074d69;
+
+  margin: 10px;
+  width:70px;
+  color:white;
+}
+.button2{
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #074d69;
+  margin: 10px;
+  width:70px;
+  color:white;
+}
+.button3{
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #074d69;
+  margin: 10px;
+  width:70;
+  color:white;
+}
